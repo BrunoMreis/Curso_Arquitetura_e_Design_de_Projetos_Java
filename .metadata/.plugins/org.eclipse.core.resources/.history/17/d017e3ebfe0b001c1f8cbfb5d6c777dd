@@ -1,0 +1,76 @@
+package br.com.alura.rh.model;
+
+import java.math.BigDecimal;
+import java.math.RoundingMode;
+import java.time.LocalDate;
+
+import br.com.alura.rh.ValidacaoException;
+
+public class Funcionario {
+
+	private DadosFuncionario data = new DadosFuncionario();
+	private LocalDate dataUltimoReajuste;
+
+	public Funcionario(String nome, String cpf, Cargo cargo, BigDecimal salario) {
+		this.data.setNome(nome);
+		this.data.setCpf(cpf);
+		this.data.setCargo(cargo);
+		this.data.setSalario(salario);
+	}
+
+	public void reajustarSalario(BigDecimal aumento) {
+		BigDecimal percentualReajuste = aumento.divide(data.getSalario(), RoundingMode.HALF_UP);
+		if (percentualReajuste.compareTo(new BigDecimal("0.4")) > 0) {
+			throw new ValidacaoException("Reajuste nao pode ser superior a 40% do salario!");
+		}
+		this.data.setSalario(this.data.getSalario().add(aumento));
+		this.dataUltimoReajuste = LocalDate.now();
+	}
+
+	public String getNome() {
+		return data.getNome();
+	}
+
+	public void setNome(String nome) {
+		this.data.setNome(nome);
+	}
+
+	public String getCpf() {
+		return data.getCpf();
+	}
+
+	public void setCpf(String cpf) {
+		this.data.setCpf(cpf);
+	}
+
+	public Cargo getCargo() {
+		return data.getCargo();
+	}
+
+	public void setCargo(Cargo cargo) {
+		this.data.setCargo(cargo);
+	}
+
+	public BigDecimal getSalario() {
+		return data.getSalario();
+	}
+
+	public void setSalario(BigDecimal salario) {
+		this.data.setSalario(salario);
+	}
+
+	public LocalDate getDataUltimoReajuste() {
+		return dataUltimoReajuste;
+	}
+
+	public void setDataUltimoReajuste(LocalDate dataUltimoReajuste) {
+		this.dataUltimoReajuste = dataUltimoReajuste;
+	}
+
+	public void atualizaSalario(BigDecimal salarioAjustado) {
+		this.data.setSalario(salarioAjustado);
+		this.dataUltimoReajuste = LocalDate.now();
+		
+	}
+
+}

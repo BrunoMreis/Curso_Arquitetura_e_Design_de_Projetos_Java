@@ -1,0 +1,12 @@
+1630933388691	Move compilation unit
+1630933496659	Rename type 'Ocamento'
+1631023421537	Copy compilation unit
+1631025076394	Move compilation units
+1631025085365	Move compilation unit
+1631025107567	Move compilation unit
+1631025111452	Move compilation unit
+1631110106671	Copy compilation unit
+1631112768067	Rename type 'DescontoMaisQueseisItens'
+1631387205306	Extract method 'aplicaCalculo'
+1631388440580	Rename local variable 'desconto'
+1631388557992	Extract method 'deveAplicarDesconto'

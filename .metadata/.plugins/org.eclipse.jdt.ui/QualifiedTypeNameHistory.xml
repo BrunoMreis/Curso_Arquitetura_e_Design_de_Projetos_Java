@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="br.com.alura.rh.model.Funcionario"/>
+    <fullyQualifiedTypeName name="java.time.temporal.ChronoUnit"/>
+    <fullyQualifiedTypeName name="br.com.alura.rh.ValidacaoException"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="br.com.alura.rh.service.ReajusteServide"/>
+    <fullyQualifiedTypeName name="br.com.alura.rh.service.ValidaAumento"/>
+    <fullyQualifiedTypeName name="java.lang.IllegalAccessError"/>
+    <fullyQualifiedTypeName name="br.com.alura.Orcamento"/>
+    <fullyQualifiedTypeName name="br.com.alura.CalculadoraImposto"/>
+    <fullyQualifiedTypeName name="br.com.alura.TipoImposto"/>
+    <fullyQualifiedTypeName name="br.com.alura.ICMS"/>
+    <fullyQualifiedTypeName name="br.com.alura.desconto.CalculadoraDeDesconto"/>
+    <fullyQualifiedTypeName name="br.com.alura.desconto.DescontoMaisQueCincoItens"/>
+    <fullyQualifiedTypeName name="br.com.alura.desconto.DescontoMaiorQueQuinhetos"/>
+    <fullyQualifiedTypeName name="java.time.LocalDate"/>
+    <fullyQualifiedTypeName name="java.math.BigDecimal"/>
+    <fullyQualifiedTypeName name="br.com.alura.orcamento.Orcamento"/>
+    <fullyQualifiedTypeName name="br.com.alura.pedido.Pedido"/>
+    <fullyQualifiedTypeName name="java.time.LocalDateTime"/>
+</qualifiedTypeNameHistroy>

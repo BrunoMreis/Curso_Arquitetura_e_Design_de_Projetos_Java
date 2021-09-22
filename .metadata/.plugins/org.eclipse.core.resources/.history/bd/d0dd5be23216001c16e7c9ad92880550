@@ -1,0 +1,12 @@
+package br.com.alura.situacao;
+
+import br.com.alura.orcamento.Orcamento;
+
+public class Aprovado extends SituacaoOcamento {
+	
+	@Override
+	public void aprovar(Orcamento orcamento) {
+		orcamento.setSituacao(new Aprovado());
+	}
+
+}

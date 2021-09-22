@@ -1,0 +1,7 @@
+1630332148981	Rename local variable 'peridoUltimoAumento'
+1630333146968	Extract Class...
+1630333166054	Delete element
+1630333186495	Rename type 'ValidaAumentoMaximo'
+1630333271318	Copy compilation unit
+1630333342305	Rename type 'ValidaPeriodo'
+1630333371018	Extract interface 'ValidaAumento'

@@ -1,7 +1,0 @@
-package br.com.alura.situacao;
-
-import javax.management.RuntimeException;
-
-public class DomainExeptions extends RuntimeException {
-
-}

@@ -1,0 +1,9 @@
+package br.com.alura.pedido;
+
+public class EnviandoEmailPedido {
+
+	public void execultar(Pedido pedido) {
+		
+		System.out.println("E-mail enviado");
+	}
+}

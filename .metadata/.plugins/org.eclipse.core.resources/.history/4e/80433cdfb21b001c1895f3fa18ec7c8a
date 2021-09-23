@@ -1,0 +1,11 @@
+package br.com.alura.pedido.acao;
+
+import br.com.alura.pedido.Pedido;
+
+public class EnviandoEmailPedido {
+
+	public void execultar(Pedido pedido) {
+		
+		System.out.println("E-mail enviado");
+	}
+}

@@ -1482,3 +1482,27 @@ java.lang.Exception: The project description file (.project) for 'SOLID' is miss
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-22 10:36:10.107
 !MESSAGE executing callback sts4.classpath.CVFMzrMF SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-22 10:49:28.003
+!MESSAGE exists = false open = true => deleted = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-22 10:49:28.008
+!MESSAGE buffering callback sts4.classpath.CVFMzrMF SOLID true 0
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-22 10:49:28.009
+!MESSAGE executing callback sts4.classpath.CVFMzrMF 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-22 10:49:28.015
+!MESSAGE executing callback sts4.classpath.CVFMzrMF SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-22 22:10:28.686
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.CVFMzrMF
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-22 22:10:28.687
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.CVFMzrMF
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-22 22:10:28.687
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-22 22:10:28.688
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.CVFMzrMF => OK

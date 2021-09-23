@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="D:\Users\bruno\Formação Arquitetura Java\SOLID"/>
 			<item value="D:\Users\bruno\Formação Arquitetura Java\2051-solid-java-projeto_inicial"/>
 		</list>
 		<list key="projectNameTemplate">

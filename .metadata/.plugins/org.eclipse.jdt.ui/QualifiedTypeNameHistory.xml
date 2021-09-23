@@ -3,7 +3,6 @@
     <fullyQualifiedTypeName name="br.com.alura.rh.model.Funcionario"/>
     <fullyQualifiedTypeName name="java.time.temporal.ChronoUnit"/>
     <fullyQualifiedTypeName name="br.com.alura.rh.ValidacaoException"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="br.com.alura.rh.service.ReajusteServide"/>
     <fullyQualifiedTypeName name="br.com.alura.rh.service.ValidaAumento"/>
     <fullyQualifiedTypeName name="java.lang.IllegalAccessError"/>
@@ -15,8 +14,16 @@
     <fullyQualifiedTypeName name="br.com.alura.desconto.DescontoMaisQueCincoItens"/>
     <fullyQualifiedTypeName name="br.com.alura.desconto.DescontoMaiorQueQuinhetos"/>
     <fullyQualifiedTypeName name="java.time.LocalDate"/>
-    <fullyQualifiedTypeName name="java.math.BigDecimal"/>
     <fullyQualifiedTypeName name="br.com.alura.orcamento.Orcamento"/>
     <fullyQualifiedTypeName name="br.com.alura.pedido.Pedido"/>
     <fullyQualifiedTypeName name="java.time.LocalDateTime"/>
+    <fullyQualifiedTypeName name="br.com.alura.pedido.GeraPedido"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="java.math.BigDecimal"/>
+    <fullyQualifiedTypeName name="br.com.alura.pedido.GeraPedidoHandl"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="br.com.alura.pedido.AcoesAposGerarPedido"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="br.com.alura.pedido.acao.SalvarPedidoNoBancoDeDados"/>
+    <fullyQualifiedTypeName name="br.com.alura.pedido.acao.EnviandoEmailPedido"/>
 </qualifiedTypeNameHistroy>

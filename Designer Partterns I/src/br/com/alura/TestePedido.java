@@ -1,13 +1,10 @@
 package br.com.alura;
 
 import java.math.BigDecimal;
-import java.time.LocalDate;
 import java.util.Arrays;
 
-import br.com.alura.orcamento.Orcamento;
 import br.com.alura.pedido.GeraPedido;
 import br.com.alura.pedido.GeraPedidoHandl;
-import br.com.alura.pedido.Pedido;
 import br.com.alura.pedido.acao.EnviandoEmailPedido;
 import br.com.alura.pedido.acao.SalvarPedidoNoBancoDeDados;
 

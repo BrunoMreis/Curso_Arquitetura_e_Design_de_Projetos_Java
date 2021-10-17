@@ -1,9 +1,0 @@
-package br.com.alura.pedido;
-
-public class SalvarPedidoNoBancoDeDados {
-	
-	public void execultar(Pedido pedido) {
-		System.out.println("Pedido Salvo");
-	}
-
-}
